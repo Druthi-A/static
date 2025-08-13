@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Static Shopping Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>My Shop</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <section class="filters">
+    <input type="text" id="search" placeholder="Search products..." />
+    <select id="category">
+      <option value="all">All Categories</option>
+      <option value="clothing">Clothing</option>
+      <option value="shoes">Shoes</option>
+      <option value="accessories">Accessories</option>
+    </select>
+  </section>
+
+  <main id="product-list">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="tshirt.png" alt="Shirt" width="200" />
+      <h3>Men's Shirt</h3>
+      <p>₹499</p>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="shoes.png" alt="Shoes" width="200" />
+      <h3>Running Shoes</h3>
+      <p>₹1299</p>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="watch.png" alt="Watch" width="200" />
+      <h3>Smart Watch</h3>
+      <p>₹1999</p>
+    </div>
+  </main>
+
+  <footer class="footer-bg">
+    <p>© 2025 My Shop – Static Website Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
